@@ -1,0 +1,8 @@
+server:
+    port: 9091
+
+spring:
+    application:
+        name: R2DBC-SERVER
+    r2dbc:
+        url: r2dbc:h2:mem:///sampledb?options=DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
